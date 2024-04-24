@@ -1,0 +1,3 @@
+ativar venv entrando na pasta venv/scripts e activate
+sair da pasta venv 
+python app.py

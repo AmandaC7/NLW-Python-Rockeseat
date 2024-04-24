@@ -7,7 +7,7 @@ from sqlalchemy.orm.exc import NoResultFound
 
 class AttendeesRepository:
 
-    def insert_attendee(self, attendee_info: Dict) -> Dict:
+    def insert_attendees(self, attendee_info: Dict) -> Dict:
         with db_connection_handler as database:
             try:
                 attendee = Attendees(

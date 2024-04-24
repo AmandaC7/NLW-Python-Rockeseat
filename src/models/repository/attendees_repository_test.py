@@ -15,7 +15,7 @@ def test_insert_attendee():
     }
 
     attendees_repository = AttendeesRepository()
-    response = attendees_repository.insert_attendee(attendees_info)
+    response = attendees_repository.insert_attendees(attendees_info)
     print(response)
 
 @pytest.mark.skip
